@@ -5,8 +5,9 @@ Feature: Hello World
 
 Scenario: Registrar
 	Given I go to the home page
-	And I fill in "nombre" with "Lennon"
-	And I fill in "apellido" with "Shimokawa"
+	And I fill in "nombre" with "Luis Oliva"
+	And I fill in "email" with "lefoque71@gmail.com"
+	And I fill in "comentario" with "Aprobado"
 	When I press "Registrar"
-	Then I should see "Ok!"
+	Then I should see "Se registro el comentario"
 
